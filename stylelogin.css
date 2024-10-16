@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, black, grey);
+}
+
+.container {
+    background: #333;
+    padding: 20px;
+    border-radius: 5px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+.cadastre {
+    text-align: center;
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    color: #fff;    
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+label {
+    color: #fff;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background: #444;
+    color: #fff;
+}
+
+button {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-login img {
+    width: 60px;
+    height: 50px;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.white-text {
+    color: white;
+}

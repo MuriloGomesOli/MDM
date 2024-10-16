@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #d9d9d9, grey);
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.containerpesquisa {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    width: 100%;
+    max-width: 600px;
+}
+
+form {
+    display: flex;
+    width: 100%;
+}
+
+.barrapesquisa {
+    width: 500px;
+    padding: 1px 2px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 260px 0px 0px 260px;
+    outline: none;
+}
+
+.barrapesquisa:focus {
+    border-color: white;
+}
+
+.botaopesquisa {
+    align-items: baseline;
+    padding: 1px 2px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 0px 260px 260px 0px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.botaopesquisa img {
+    width: 80px;
+}
+
+.botaopesquisa:hover {
+    background-color: white;
+}
+
+.estoque {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 10px;
+    grid-area: 3 / 1 / 10 / 10;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.pr1, .pr2, .pr3, .pr4, .pr5, .pr6, .pr7, .pr8 {
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.n {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin: 35px 0 0 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    align-items: center;
+}
+
+.estoque a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+
+}
+
+.estoque b {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+}
+
+.estoque img {
+    border-radius: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.abas {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin: 10px;
+    grid-area: 3 / 11 / 14 / 14;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(80, 80, 80);
+}
+
+.aba1, .aba2, .aba3, .aba4, .aba5, .aba6 {
+    background-color: cornsilk;
+    margin: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.LOGIN{
+    display: flex;
+    grid-area: 2/12/2/14;
+    background-color: black;
+    text-align: center;
+    border-radius: 50px;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+
+}
+.LOGIN a{
+    text-decoration: none;
+    color: #ccc;
+    text-align: center;
+    align-items: center;
+    width: 120px;
+}
+.carrinho{
+    background-color: black;
+    display: flex;
+    grid-area:2/11/2/12; ;
+    border-radius: 180px;
+    align-items: center;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 10px;
+}
+.carrinho img{
+    text-align: center;
+    align-items: center;
+    margin-left:10px  ;
+}
+.fundo{
+    background-color:#717171;
+    display: flex;
+    grid-area: 1/1/1/13;
+}

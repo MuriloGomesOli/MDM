@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="stylecadastro.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h2>Cadastro:</h2>
+            <form>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="username">Nome de usuário:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+
+                <div class="checkbox-container">
+                    <label for="terms">Você concorda com os Termos de Uso e Políticas de privacidade da MDM?</label>
+                    <input type="checkbox" id="terms" name="terms" required>
+
+                </div>
+
+                <div class="checkbox-container">
+                    <label for="newsletter">Quero receber novidades da MDM no meu email e SMS</label>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                
+                </div>
+
+                <a href="index.html"> <button type="submit">Cadastrar</button></a>
+            </form>
+            <p>Ou <a href="login.html">Login</a></p>
+            <div class="social-login">
+                <a href="https://accounts.google.com/v3/signin/identifier?hl=pt-BR&ifkv=ARpgrqdMJ_9r5vaVdU2SycP3O_EwgavwvXz56lIv2m-qoTd8vxiSW7L-4A5RAeQTXONLUpVA68VqIQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S184868407%3A1728654565989953&ddm=0"><img src="google.png" alt=""></a>
+                <a href="https://pt-br.facebook.com/login.php/"><img src="facebook.png" alt=""></a>
+            </div>
+    </div>
+</body>
+</html>

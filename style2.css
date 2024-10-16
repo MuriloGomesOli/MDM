@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(12, 8.3%);
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.grid {
+    display: contents;
+}
+
+.menu {
+    grid-area: 1 / 1 / 2 / 10;
+    background-color: black;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    border-radius: 30px;
+}
+
+.home-icon {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-right: auto;
+}
+
+.novidades {
+    text-align: center;
+    font-size: 20px;
+}
+
+.produtos {
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+}
+
+.seta {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.produtos:hover .tooltip {
+    display: block;
+}

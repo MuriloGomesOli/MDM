@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="stylelogin.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo"><img src="mdmlogo.png" alt=""></div>
+        <form>
+            <label for="email">Nome do usuário ou e-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+
+            <a href="ems.html" target="_blank" rel="external">Esqueci minha senha</a>
+
+            <button type="submit" onclick="window.location.href='index.html'">Fazer Login</button>
+
+            <p class="white-text">Fazer Login com:</p>
+            <div class="cadastre"><a href="cadastro.html" rel="external" target="_blank">Ou cadastre-se</a></div>
+            <div class="social-login">
+                <a href="https://accounts.google.com/v3/signin/identifier?hl=pt-BR" target="_blank" rel="external"><img src="google.png" alt="Google"></a>
+                <a href="https://pt-br.facebook.com/login.php/" target="_blank" rel="external"><img src="facebook.png" alt="Facebook"></a>
+            </div>
+
+        </form>
+
+        <div class="social-icons">
+            <a href="https://www.instagram.com" rel="external" target="_blank"><img src="instagram.png" alt=""></a>
+            <a href="https://www.whatsapp.com" rel="external" target="_blank"><img src="whatsapp.webp" alt=""></a>
+            <a href="https://www.tiktok.com" rel="external" target="_blank"><img src="tiktok.webp" alt=""></a>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+</body>
+</html>
